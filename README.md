@@ -2,7 +2,7 @@
 
 ！重碼警告！倉頡五代諺文輸入法
 
-碼表來自https://github.com/rime-aca/rime-hangyl
+碼表改自https://github.com/rime-aca/rime-hangyl
 
 將「初聲-中聲-終聲」對應倉頡「頭-次-尾」拆碼。
 
