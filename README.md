@@ -1,4 +1,5 @@
 #rime-cangul
+
 ！重碼警告！倉頡五代諺文輸入法
 
 碼表來自https://github.com/rime-aca/rime-hangyl
