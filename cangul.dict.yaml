@@ -8,9 +8,25 @@
 ---
 
 name: cangul
-version: "0.1"
+version: "0.2"
 sort: original
 use_preset_vocabulary: true
+columns:
+  - text
+  - code
+  - stem
+encoder:
+  exclude_patterns:
+    - '^x.*$'
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAzBaBbBz"
+    - length_equal: 3
+      formula: "AaAzBaBzCz"
+    - length_in_range: [4, 10]
+      formula: "AaBzCaYzZz"
+  tail_anchor: "'"
 ...
 
 ㄱ	n
