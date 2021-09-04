@@ -4,7 +4,7 @@
 schema:
   schema_id: cangul
   name: 倉頡諺文
-  version: "0.1"
+  version: "0.3"
   author:
     - hulenkius
   description: |
@@ -76,3 +76,6 @@ recognizer:
   patterns:
     punct: '^/([0-9]0?|[A-Za-z]+)$'
     reverse_lookup: "`[a-z]*'?$|[a-z]+'$"
+
+style: 
+  font_face: "Yu Gothic UI"
