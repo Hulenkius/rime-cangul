@@ -8,23 +8,13 @@
 name: cangul
 version: "0.31"
 sort: original
-sort: original
-use_preset_vocabulary: true
-columns:
-  - text
-  - code
-  - stem
 encoder:
   exclude_patterns:
     - '^x.*$'
     - '^z.*$'
   rules:
-    - length_equal: 2
-      formula: "AaAzBaBbBz"
-    - length_equal: 3
-      formula: "AaAzBaBzCz"
-    - length_in_range: [4, 10]
-      formula: "AaBzCaYzZz"
+    - length_in_range: [1, 10]
+      formula: "AaAbAcAzBaBbBcBzCaCbCcCzDaDbDcDzEaEbEcEzFaFbFcFzGaGbGcGzHaHbHcHzIaIbIcIzZaZbZcZz"
   tail_anchor: "'"
 ...
 
